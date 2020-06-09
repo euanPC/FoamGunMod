@@ -35,7 +35,7 @@ public class FoamGunsMod
         @Override
         public ItemStack createIcon()
         {
-            return new ItemStack(ModItems.ASSAULTER);
+            return new ItemStack(ModItems.L85);
         }
     };
 
@@ -67,11 +67,11 @@ public class FoamGunsMod
 
         /* Register new crafting recipes to the workbench */
         WorkbenchRegistry.registerRecipe(new ItemStack(ModItems.FOAM_DART, 64),
-                new ItemStack(Blocks.SPONGE));
+                new ItemStack(Items.IRON_INGOT));
         WorkbenchRegistry.registerRecipe(new ItemStack(ModItems.ASSAULTER),
                 new ItemStack(Items.IRON_INGOT, 8),
-                new ItemStack(Blocks.CONCRETE, 1, EnumDyeColor.YELLOW.getMetadata()),
-                new ItemStack(Blocks.CONCRETE, 1, EnumDyeColor.LIME.getMetadata()));
+                new ItemStack(Blocks.CONCRETE, 1, EnumDyeColor.GREEN.getMetadata()),
+                new ItemStack(Blocks.CONCRETE, 1, EnumDyeColor.GREY.getMetadata()));
 
         proxy.init();
     }
