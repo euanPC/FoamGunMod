@@ -6,8 +6,8 @@ package com.mrcrayfish.foamguns;
 public class Reference
 {
     /* Replace these with your modid, name, version. */
-    public static final String MOD_ID = "foamguns";
-    public static final String MOD_NAME = "Foam Guns";
+    public static final String MOD_ID = "BritishWeapons";
+    public static final String MOD_NAME = "British Guns";
     public static final String MOD_VERSION = "0.1.0";
 
     /* This version of Minecraft should match the same as the Gun Mod you are developing against */
