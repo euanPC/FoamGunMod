@@ -1,10 +1,10 @@
 {
-    "id": "assaulter",
+    "id": "L85",
     "general": {
         "auto": true,
         "rate": 2,
         "gripType": "two_handed",
-        "maxAmmo": 50,
+        "maxAmmo": 30,
         "reloadSpeed": 5,
         "recoilKick": 0.25
     },
