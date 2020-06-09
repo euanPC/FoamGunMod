@@ -7,6 +7,6 @@ import com.mrcrayfish.foamguns.Reference;
  */
 public class ItemNames
 {
-    public static final String ASSAULTER = Reference.MOD_ID + ":assaulter";
+    public static final String L85 = Reference.MOD_ID + ":L85";
     public static final String FOAM_DART = Reference.MOD_ID + ":foam_dart";
 }
