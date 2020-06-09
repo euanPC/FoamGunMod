@@ -24,6 +24,6 @@ public class ClientProxy extends CommonProxy
     {
         /* Adds a display property for items so they render nicely in the workbench GUI */
         GuiWorkbench.addDisplayProperty(new ItemStack(ModItems.FOAM_DART), new DisplayProperty(0.0, 0.15, 0.0, 5.0));
-        GuiWorkbench.addDisplayProperty(new ItemStack(ModItems.ASSAULTER), new DisplayProperty(0.0, 0.55, -0.15, 0.0, 0.0, 0.0, 3.0));
+        GuiWorkbench.addDisplayProperty(new ItemStack(ModItems.L85), new DisplayProperty(0.0, 0.55, -0.15, 0.0, 0.0, 0.0, 3.0));
     }
 }
