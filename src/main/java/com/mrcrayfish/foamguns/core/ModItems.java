@@ -31,7 +31,7 @@ public class ModItems
     /* Create your items here */
 
     @GameRegistry.ObjectHolder(ItemNames.ASSAULTER)
-    public static final Item ASSAULTER = null;
+    public static final Item L85 = null;
 
     @GameRegistry.ObjectHolder(ItemNames.FOAM_DART)
     public static final ItemAmmo FOAM_DART = null;
@@ -46,7 +46,7 @@ public class ModItems
          * https://github.com/MrCrayfish/MrCrayfishGunMod/tree/master/src/main/resources/assets/cgm/guns
          *
          * */
-        ITEMS.add(new ItemGun(new ResourceLocation(Reference.MOD_ID, "assaulter")).setCreativeTab(FoamGunsMod.TAB));
+        ITEMS.add(new ItemGun(new ResourceLocation(Reference.MOD_ID, "L85")).setCreativeTab(FoamGunsMod.TAB));
 
         /* Registering custom ammo. Make sure you change in your gun json to use your custom ammo if you implement one */
         ITEMS.add(new ItemAmmo(new ResourceLocation(Reference.MOD_ID, "foam_dart")).setCreativeTab(FoamGunsMod.TAB));
