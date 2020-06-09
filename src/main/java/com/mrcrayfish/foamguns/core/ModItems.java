@@ -30,7 +30,7 @@ public class ModItems
 
     /* Create your items here */
 
-    @GameRegistry.ObjectHolder(ItemNames.ASSAULTER)
+    @GameRegistry.ObjectHolder(ItemNames.L85)
     public static final Item L85 = null;
 
     @GameRegistry.ObjectHolder(ItemNames.FOAM_DART)
